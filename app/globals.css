@@ -3,8 +3,15 @@
 @tailwind utilities;
 
 html {
+  font-size: 80%; /* Globally scales down rem values to simulate 80% zoom */
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* Offset for fixed header */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 90%; /* Keeps mobile text readable */
+  }
 }
 
 @layer base {
@@ -91,22 +98,22 @@ html {
   }
 
   h1 {
-    font-size: clamp(3.5rem, 10vw, 9rem);
+    font-size: clamp(2.5rem, 8vw, 6.5rem);
     @apply font-bold;
   }
 
   h2 {
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    @apply font-bold mb-8;
-  }
-
-  h3 {
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(2rem, 5vw, 4rem);
     @apply font-bold mb-6;
   }
 
+  h3 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    @apply font-bold mb-4;
+  }
+
   p {
-    font-size: clamp(1.125rem, 1.5vw, 1.35rem);
+    font-size: clamp(1rem, 1.2vw, 1.15rem);
     @apply leading-relaxed text-charcoal/80 font-sans;
   }
 }
