@@ -1,0 +1,1472 @@
+[
+  {
+    "locality":"Hari Malayacha Mala (darevadi )",
+    "booth_count":1,
+    "total_voters":543.0,
+    "strategic_score":21.7311233886,
+    "swing_score":11.0497237569,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":1
+  },
+  {
+    "locality":"Gajraj nagar (Burhanagar)",
+    "booth_count":1,
+    "total_voters":1198.0,
+    "strategic_score":22.1202003339,
+    "swing_score":11.6861435726,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":2
+  },
+  {
+    "locality":"Burhanagar",
+    "booth_count":3,
+    "total_voters":3047.0,
+    "strategic_score":24.6088494763,
+    "swing_score":16.2023964823,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":3
+  },
+  {
+    "locality":"Sokewadi (Udarmal)",
+    "booth_count":1,
+    "total_voters":241.0,
+    "strategic_score":25.7261410788,
+    "swing_score":10.7883817427,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":4
+  },
+  {
+    "locality":"Nagardevle",
+    "booth_count":4,
+    "total_voters":3809.0,
+    "strategic_score":26.3200185843,
+    "swing_score":9.9463521857,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":5
+  },
+  {
+    "locality":"Bhingar (Vadarvadi)",
+    "booth_count":4,
+    "total_voters":2497.0,
+    "strategic_score":27.884791666,
+    "swing_score":15.4307715022,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":6
+  },
+  {
+    "locality":"Varulwadi(Burha nagar)",
+    "booth_count":1,
+    "total_voters":927.0,
+    "strategic_score":29.3419633225,
+    "swing_score":25.5663430421,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":7
+  },
+  {
+    "locality":"Dhangar Wadi(Jeur)",
+    "booth_count":1,
+    "total_voters":1057.0,
+    "strategic_score":29.4228949858,
+    "swing_score":17.4077578051,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":8
+  },
+  {
+    "locality":"Shankar Wadi",
+    "booth_count":1,
+    "total_voters":532.0,
+    "strategic_score":29.8872180451,
+    "swing_score":18.984962406,
+    "priority_label":"Low",
+    "action_label":"Maintain Presence",
+    "rank":9
+  },
+  {
+    "locality":"Kadgaon",
+    "booth_count":1,
+    "total_voters":873.0,
+    "strategic_score":30.126002291,
+    "swing_score":20.3894616266,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":10
+  },
+  {
+    "locality":"Parewadi",
+    "booth_count":1,
+    "total_voters":489.0,
+    "strategic_score":31.0838445808,
+    "swing_score":7.1574642127,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":11
+  },
+  {
+    "locality":"Kekti (Bhingar)",
+    "booth_count":2,
+    "total_voters":1729.0,
+    "strategic_score":31.1851637207,
+    "swing_score":19.7522457259,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":12
+  },
+  {
+    "locality":"Chichondi",
+    "booth_count":2,
+    "total_voters":1513.0,
+    "strategic_score":32.4098333631,
+    "swing_score":15.3875157395,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":13
+  },
+  {
+    "locality":"Darewadi",
+    "booth_count":3,
+    "total_voters":2403.0,
+    "strategic_score":32.5413176919,
+    "swing_score":14.0240813629,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":14
+  },
+  {
+    "locality":"Ganegaon",
+    "booth_count":1,
+    "total_voters":846.0,
+    "strategic_score":32.8605200946,
+    "swing_score":19.1489361702,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":15
+  },
+  {
+    "locality":"Shirapur",
+    "booth_count":2,
+    "total_voters":1464.0,
+    "strategic_score":33.8700164253,
+    "swing_score":24.3911452889,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":16
+  },
+  {
+    "locality":"Songaon",
+    "booth_count":2,
+    "total_voters":1700.0,
+    "strategic_score":33.9984828749,
+    "swing_score":21.063676343,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":17
+  },
+  {
+    "locality":"Damalwadi",
+    "booth_count":1,
+    "total_voters":495.0,
+    "strategic_score":34.3434343434,
+    "swing_score":24.8484848485,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":18
+  },
+  {
+    "locality":"Pokhardi",
+    "booth_count":3,
+    "total_voters":2638.0,
+    "strategic_score":36.1304708131,
+    "swing_score":16.5489971027,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":19
+  },
+  {
+    "locality":"Shendi",
+    "booth_count":3,
+    "total_voters":2696.0,
+    "strategic_score":36.4362737517,
+    "swing_score":16.3451558026,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":20
+  },
+  {
+    "locality":"Gitewadi",
+    "booth_count":1,
+    "total_voters":506.0,
+    "strategic_score":36.7588932806,
+    "swing_score":29.8418972332,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":21
+  },
+  {
+    "locality":"Tukadodha (Darewadi)",
+    "booth_count":1,
+    "total_voters":447.0,
+    "strategic_score":37.1364653244,
+    "swing_score":21.9239373602,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":22
+  },
+  {
+    "locality":"Pimpalgaon malvi",
+    "booth_count":4,
+    "total_voters":3663.0,
+    "strategic_score":37.6050094367,
+    "swing_score":18.1008968798,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":23
+  },
+  {
+    "locality":"Lohasar",
+    "booth_count":2,
+    "total_voters":1065.0,
+    "strategic_score":39.4890720859,
+    "swing_score":14.196702454,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":24
+  },
+  {
+    "locality":"Devrai",
+    "booth_count":1,
+    "total_voters":670.0,
+    "strategic_score":40.1492537313,
+    "swing_score":10.5970149254,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":25
+  },
+  {
+    "locality":"Dongargan",
+    "booth_count":2,
+    "total_voters":1811.0,
+    "strategic_score":40.1770729661,
+    "swing_score":23.978701969,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":26
+  },
+  {
+    "locality":"Dhanore",
+    "booth_count":2,
+    "total_voters":1821.0,
+    "strategic_score":40.4767847921,
+    "swing_score":22.3490027789,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":27
+  },
+  {
+    "locality":"Miri",
+    "booth_count":4,
+    "total_voters":3318.0,
+    "strategic_score":40.7805213446,
+    "swing_score":23.6650819215,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":28
+  },
+  {
+    "locality":"Dharwadi",
+    "booth_count":1,
+    "total_voters":576.0,
+    "strategic_score":40.7986111111,
+    "swing_score":35.7638888889,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":29
+  },
+  {
+    "locality":"Khospuri",
+    "booth_count":2,
+    "total_voters":1156.0,
+    "strategic_score":41.3019593755,
+    "swing_score":25.3935964794,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":30
+  },
+  {
+    "locality":"Kapurwadi",
+    "booth_count":3,
+    "total_voters":2531.0,
+    "strategic_score":41.8986235029,
+    "swing_score":28.4344606081,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":31
+  },
+  {
+    "locality":"Udarmal",
+    "booth_count":1,
+    "total_voters":397.0,
+    "strategic_score":42.5692695214,
+    "swing_score":32.9974811083,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":32
+  },
+  {
+    "locality":"Malewadi \/ Dukarewadi",
+    "booth_count":2,
+    "total_voters":1486.0,
+    "strategic_score":42.6118495991,
+    "swing_score":34.469405885,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":33
+  },
+  {
+    "locality":"Mandave",
+    "booth_count":2,
+    "total_voters":1368.0,
+    "strategic_score":42.7231532148,
+    "swing_score":22.9283515732,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":34
+  },
+  {
+    "locality":"Shingve Keshav",
+    "booth_count":1,
+    "total_voters":1040.0,
+    "strategic_score":42.9807692308,
+    "swing_score":7.4038461538,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":35
+  },
+  {
+    "locality":"Anapwadi",
+    "booth_count":1,
+    "total_voters":734.0,
+    "strategic_score":43.5967302452,
+    "swing_score":33.10626703,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":36
+  },
+  {
+    "locality":"Bahiravadi (jeur )",
+    "booth_count":1,
+    "total_voters":967.0,
+    "strategic_score":43.9503619442,
+    "swing_score":22.9576008273,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":37
+  },
+  {
+    "locality":"Majarsumbha",
+    "booth_count":1,
+    "total_voters":948.0,
+    "strategic_score":44.0928270042,
+    "swing_score":35.6540084388,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":38
+  },
+  {
+    "locality":"Barababhali",
+    "booth_count":2,
+    "total_voters":1254.0,
+    "strategic_score":44.2848290409,
+    "swing_score":28.5009142442,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":39
+  },
+  {
+    "locality":"Valan",
+    "booth_count":2,
+    "total_voters":1982.0,
+    "strategic_score":44.5311926156,
+    "swing_score":31.8500110178,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":40
+  },
+  {
+    "locality":"Pangarmal",
+    "booth_count":1,
+    "total_voters":816.0,
+    "strategic_score":44.8529411765,
+    "swing_score":28.7990196078,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":41
+  },
+  {
+    "locality":"Ragho hivre",
+    "booth_count":1,
+    "total_voters":922.0,
+    "strategic_score":44.9023861171,
+    "swing_score":34.273318872,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":42
+  },
+  {
+    "locality":"Gunjale",
+    "booth_count":1,
+    "total_voters":1141.0,
+    "strategic_score":44.9605609115,
+    "swing_score":26.4680105171,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":43
+  },
+  {
+    "locality":"Ahvadwadi (Majale Chincholi)",
+    "booth_count":1,
+    "total_voters":298.0,
+    "strategic_score":44.966442953,
+    "swing_score":40.2684563758,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":44
+  },
+  {
+    "locality":"nan",
+    "booth_count":1,
+    "total_voters":240250.0,
+    "strategic_score":45.066805411,
+    "swing_score":30.9569198751,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":45
+  },
+  {
+    "locality":"Nimbhere",
+    "booth_count":2,
+    "total_voters":1691.0,
+    "strategic_score":45.6290150418,
+    "swing_score":26.7231235589,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":46
+  },
+  {
+    "locality":"Majlechincholi",
+    "booth_count":2,
+    "total_voters":952.0,
+    "strategic_score":46.0862337295,
+    "swing_score":33.0114601019,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":47
+  },
+  {
+    "locality":"Dhamori Bu.",
+    "booth_count":1,
+    "total_voters":1029.0,
+    "strategic_score":46.452866861,
+    "swing_score":23.1292517007,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":48
+  },
+  {
+    "locality":"Jeur",
+    "booth_count":6,
+    "total_voters":4556.0,
+    "strategic_score":46.7298964592,
+    "swing_score":24.6252035135,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":49
+  },
+  {
+    "locality":"Joharwadi",
+    "booth_count":1,
+    "total_voters":674.0,
+    "strategic_score":46.7359050445,
+    "swing_score":36.350148368,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":50
+  },
+  {
+    "locality":"Chinch Vihire",
+    "booth_count":2,
+    "total_voters":1760.0,
+    "strategic_score":46.9747332084,
+    "swing_score":32.2132114167,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":51
+  },
+  {
+    "locality":"Shiral",
+    "booth_count":2,
+    "total_voters":2005.0,
+    "strategic_score":47.0179031289,
+    "swing_score":37.0887414873,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":52
+  },
+  {
+    "locality":"Digras (M.P.K.V.)",
+    "booth_count":1,
+    "total_voters":572.0,
+    "strategic_score":47.027972028,
+    "swing_score":36.013986014,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":53
+  },
+  {
+    "locality":"Savatanagar (Nagaradevale)",
+    "booth_count":10,
+    "total_voters":6082.0,
+    "strategic_score":47.3574902706,
+    "swing_score":28.6964763566,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":54
+  },
+  {
+    "locality":"Taharabad",
+    "booth_count":2,
+    "total_voters":1750.0,
+    "strategic_score":47.3749055297,
+    "swing_score":28.1639690137,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":55
+  },
+  {
+    "locality":"Wable wadi",
+    "booth_count":1,
+    "total_voters":330.0,
+    "strategic_score":47.8787878788,
+    "swing_score":14.8484848485,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":56
+  },
+  {
+    "locality":"Varshindya",
+    "booth_count":1,
+    "total_voters":639.0,
+    "strategic_score":47.8873239437,
+    "swing_score":17.8403755869,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":57
+  },
+  {
+    "locality":"Kandal Khu",
+    "booth_count":2,
+    "total_voters":1318.0,
+    "strategic_score":48.3341304001,
+    "swing_score":32.4837063375,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":58
+  },
+  {
+    "locality":"Tulapur",
+    "booth_count":1,
+    "total_voters":843.0,
+    "strategic_score":48.3985765125,
+    "swing_score":21.5895610913,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":59
+  },
+  {
+    "locality":"Satwad",
+    "booth_count":1,
+    "total_voters":693.0,
+    "strategic_score":48.4848484848,
+    "swing_score":30.7359307359,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":60
+  },
+  {
+    "locality":"Tandulwadi",
+    "booth_count":2,
+    "total_voters":2087.0,
+    "strategic_score":48.7656899881,
+    "swing_score":32.1521743167,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":61
+  },
+  {
+    "locality":"Tribhunwadi",
+    "booth_count":1,
+    "total_voters":584.0,
+    "strategic_score":48.801369863,
+    "swing_score":31.6780821918,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":62
+  },
+  {
+    "locality":"Satral",
+    "booth_count":3,
+    "total_voters":2659.0,
+    "strategic_score":49.2193801936,
+    "swing_score":25.3042318757,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":63
+  },
+  {
+    "locality":"Vadner",
+    "booth_count":2,
+    "total_voters":1366.0,
+    "strategic_score":49.2489177489,
+    "swing_score":31.8218614719,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":64
+  },
+  {
+    "locality":"Kanadgaon",
+    "booth_count":2,
+    "total_voters":2176.0,
+    "strategic_score":49.2592508027,
+    "swing_score":28.5581880714,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":65
+  },
+  {
+    "locality":"Kolhar",
+    "booth_count":2,
+    "total_voters":1475.0,
+    "strategic_score":49.5384615385,
+    "swing_score":42.4941724942,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":66
+  },
+  {
+    "locality":"Khadambe Bu.",
+    "booth_count":1,
+    "total_voters":925.0,
+    "strategic_score":49.7297297297,
+    "swing_score":26.0540540541,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":67
+  },
+  {
+    "locality":"Sase Wadi (Jeur)",
+    "booth_count":1,
+    "total_voters":1087.0,
+    "strategic_score":49.8620055198,
+    "swing_score":40.1103955842,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":68
+  },
+  {
+    "locality":"Gotumbe Akhada (Rahuri Khu)",
+    "booth_count":2,
+    "total_voters":1716.0,
+    "strategic_score":49.9318759324,
+    "swing_score":38.644603552,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":69
+  },
+  {
+    "locality":"Wavrath",
+    "booth_count":1,
+    "total_voters":1117.0,
+    "strategic_score":49.9552372426,
+    "swing_score":29.7224709042,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":70
+  },
+  {
+    "locality":"Mhisgaon",
+    "booth_count":2,
+    "total_voters":1926.0,
+    "strategic_score":49.9918042068,
+    "swing_score":26.5957802449,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":71
+  },
+  {
+    "locality":"Daradgaon thadi",
+    "booth_count":1,
+    "total_voters":1134.0,
+    "strategic_score":50.0,
+    "swing_score":22.4867724868,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":72
+  },
+  {
+    "locality":"Pawalwadi (Lohasar)",
+    "booth_count":1,
+    "total_voters":264.0,
+    "strategic_score":50.3787878788,
+    "swing_score":28.7878787879,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":73
+  },
+  {
+    "locality":"Dagad wadi",
+    "booth_count":1,
+    "total_voters":786.0,
+    "strategic_score":50.3816793893,
+    "swing_score":33.9694656489,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":74
+  },
+  {
+    "locality":"Tambhere",
+    "booth_count":3,
+    "total_voters":2590.0,
+    "strategic_score":50.3939397211,
+    "swing_score":32.5523866554,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":75
+  },
+  {
+    "locality":"Kangar Khu.",
+    "booth_count":2,
+    "total_voters":1322.0,
+    "strategic_score":50.5739555664,
+    "swing_score":33.0733496978,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":76
+  },
+  {
+    "locality":"Ghorpadwadi",
+    "booth_count":1,
+    "total_voters":949.0,
+    "strategic_score":51.2118018967,
+    "swing_score":21.8124341412,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":77
+  },
+  {
+    "locality":"Pimpri Avghad",
+    "booth_count":2,
+    "total_voters":1554.0,
+    "strategic_score":51.4348444554,
+    "swing_score":28.2021151586,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":78
+  },
+  {
+    "locality":"Bhose",
+    "booth_count":1,
+    "total_voters":894.0,
+    "strategic_score":51.4541387025,
+    "swing_score":38.7024608501,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":79
+  },
+  {
+    "locality":"Pimapalgaon Ujani",
+    "booth_count":2,
+    "total_voters":1870.0,
+    "strategic_score":51.5368747258,
+    "swing_score":35.0528081917,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":80
+  },
+  {
+    "locality":"Katrad",
+    "booth_count":4,
+    "total_voters":3002.0,
+    "strategic_score":51.5518893144,
+    "swing_score":22.3421994224,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":81
+  },
+  {
+    "locality":"Ghatshiras",
+    "booth_count":2,
+    "total_voters":1607.0,
+    "strategic_score":51.5598205322,
+    "swing_score":29.1297712066,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":82
+  },
+  {
+    "locality":"Guha",
+    "booth_count":3,
+    "total_voters":3304.0,
+    "strategic_score":52.8403223814,
+    "swing_score":23.7066853385,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":83
+  },
+  {
+    "locality":"Nimbodi",
+    "booth_count":1,
+    "total_voters":287.0,
+    "strategic_score":52.9616724739,
+    "swing_score":36.5853658537,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":84
+  },
+  {
+    "locality":"Kangar Bu.",
+    "booth_count":2,
+    "total_voters":1978.0,
+    "strategic_score":53.0265924361,
+    "swing_score":29.536778578,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":85
+  },
+  {
+    "locality":"Dhamori Khu.",
+    "booth_count":1,
+    "total_voters":1009.0,
+    "strategic_score":53.1219028741,
+    "swing_score":36.8681863231,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":86
+  },
+  {
+    "locality":"Karanji",
+    "booth_count":3,
+    "total_voters":2330.0,
+    "strategic_score":53.2420225411,
+    "swing_score":28.4842082215,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":87
+  },
+  {
+    "locality":"Mohonj Khu",
+    "booth_count":2,
+    "total_voters":1385.0,
+    "strategic_score":53.318731748,
+    "swing_score":33.2957863997,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":88
+  },
+  {
+    "locality":"Kanhoba Wadi",
+    "booth_count":1,
+    "total_voters":598.0,
+    "strategic_score":53.3444816054,
+    "swing_score":23.5785953177,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":89
+  },
+  {
+    "locality":"Chandakapur",
+    "booth_count":1,
+    "total_voters":495.0,
+    "strategic_score":53.5353535354,
+    "swing_score":40.0,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":90
+  },
+  {
+    "locality":"Tandulner",
+    "booth_count":1,
+    "total_voters":1038.0,
+    "strategic_score":53.6608863198,
+    "swing_score":33.8150289017,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":91
+  },
+  {
+    "locality":"Tisgaon",
+    "booth_count":5,
+    "total_voters":3796.0,
+    "strategic_score":53.7637805217,
+    "swing_score":19.2568195578,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":92
+  },
+  {
+    "locality":"Umbre",
+    "booth_count":5,
+    "total_voters":4280.0,
+    "strategic_score":54.6103552784,
+    "swing_score":34.5470372383,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":93
+  },
+  {
+    "locality":"Gadakwadi",
+    "booth_count":1,
+    "total_voters":733.0,
+    "strategic_score":54.7066848568,
+    "swing_score":16.7803547067,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":94
+  },
+  {
+    "locality":"Varvandi",
+    "booth_count":2,
+    "total_voters":1547.0,
+    "strategic_score":55.3878818969,
+    "swing_score":35.0846443228,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":95
+  },
+  {
+    "locality":"Karadwadi",
+    "booth_count":1,
+    "total_voters":562.0,
+    "strategic_score":55.5160142349,
+    "swing_score":29.7153024911,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":96
+  },
+  {
+    "locality":"Chinchale",
+    "booth_count":2,
+    "total_voters":1316.0,
+    "strategic_score":55.6659300572,
+    "swing_score":33.6966104271,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":97
+  },
+  {
+    "locality":"Kamatshingve",
+    "booth_count":1,
+    "total_voters":1090.0,
+    "strategic_score":55.6880733945,
+    "swing_score":51.376146789,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":98
+  },
+  {
+    "locality":"Digras",
+    "booth_count":3,
+    "total_voters":2616.0,
+    "strategic_score":56.2044903216,
+    "swing_score":34.5784366365,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":99
+  },
+  {
+    "locality":"Pimpri Valan",
+    "booth_count":1,
+    "total_voters":610.0,
+    "strategic_score":56.5573770492,
+    "swing_score":39.5081967213,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":100
+  },
+  {
+    "locality":"Vaiju babhulgaon",
+    "booth_count":1,
+    "total_voters":952.0,
+    "strategic_score":56.6176470588,
+    "swing_score":55.8823529412,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":101
+  },
+  {
+    "locality":"Vambori",
+    "booth_count":16,
+    "total_voters":12062.0,
+    "strategic_score":56.7762719306,
+    "swing_score":34.7534284753,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":102
+  },
+  {
+    "locality":"Aradgaon",
+    "booth_count":3,
+    "total_voters":2952.0,
+    "strategic_score":56.9343761606,
+    "swing_score":33.6213559287,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":103
+  },
+  {
+    "locality":"Bramhani",
+    "booth_count":6,
+    "total_voters":5861.0,
+    "strategic_score":57.4753048779,
+    "swing_score":38.7065779617,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":104
+  },
+  {
+    "locality":"Vagaca Akhada",
+    "booth_count":1,
+    "total_voters":1034.0,
+    "strategic_score":58.0270793037,
+    "swing_score":34.1392649903,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":105
+  },
+  {
+    "locality":"Shilegaon",
+    "booth_count":1,
+    "total_voters":1136.0,
+    "strategic_score":58.3626760563,
+    "swing_score":32.7464788732,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":106
+  },
+  {
+    "locality":"Malharwadi",
+    "booth_count":1,
+    "total_voters":1002.0,
+    "strategic_score":58.5828343313,
+    "swing_score":9.0818363273,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":107
+  },
+  {
+    "locality":"Kolawadi",
+    "booth_count":2,
+    "total_voters":1254.0,
+    "strategic_score":58.6401428961,
+    "swing_score":26.8279258918,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":108
+  },
+  {
+    "locality":"Kondhavad",
+    "booth_count":2,
+    "total_voters":1400.0,
+    "strategic_score":58.8821791819,
+    "swing_score":28.8850839941,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":109
+  },
+  {
+    "locality":"Khandgaon",
+    "booth_count":1,
+    "total_voters":827.0,
+    "strategic_score":59.0084643289,
+    "swing_score":36.1547762999,
+    "priority_label":"Medium",
+    "action_label":"Monitor Closely",
+    "rank":110
+  },
+  {
+    "locality":"Jamhali",
+    "booth_count":1,
+    "total_voters":813.0,
+    "strategic_score":60.024600246,
+    "swing_score":54.9815498155,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":111
+  },
+  {
+    "locality":"Imampur",
+    "booth_count":2,
+    "total_voters":1272.0,
+    "strategic_score":60.0628246352,
+    "swing_score":44.3922829582,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":112
+  },
+  {
+    "locality":"Chikhalthan",
+    "booth_count":2,
+    "total_voters":2088.0,
+    "strategic_score":60.2306699452,
+    "swing_score":40.8979434279,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":113
+  },
+  {
+    "locality":"Adgaon",
+    "booth_count":3,
+    "total_voters":2155.0,
+    "strategic_score":60.3338453886,
+    "swing_score":44.2198122694,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":114
+  },
+  {
+    "locality":"Manori",
+    "booth_count":3,
+    "total_voters":3043.0,
+    "strategic_score":60.3728625787,
+    "swing_score":31.8768081094,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":115
+  },
+  {
+    "locality":"Gadadhe Akhada (Chinchale)",
+    "booth_count":1,
+    "total_voters":737.0,
+    "strategic_score":60.6512890095,
+    "swing_score":40.5698778833,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":116
+  },
+  {
+    "locality":"Tamnar Akhada",
+    "booth_count":1,
+    "total_voters":1010.0,
+    "strategic_score":60.8910891089,
+    "swing_score":30.297029703,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":117
+  },
+  {
+    "locality":"Jogashwari Akhada (Rahuri Bu. )",
+    "booth_count":1,
+    "total_voters":1198.0,
+    "strategic_score":61.2687813022,
+    "swing_score":34.1402337229,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":118
+  },
+  {
+    "locality":"Baragaon Nandur",
+    "booth_count":7,
+    "total_voters":5336.0,
+    "strategic_score":61.3800162704,
+    "swing_score":25.9315498732,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":119
+  },
+  {
+    "locality":"Kuranwadi",
+    "booth_count":1,
+    "total_voters":544.0,
+    "strategic_score":61.5808823529,
+    "swing_score":33.0882352941,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":120
+  },
+  {
+    "locality":"Mokal Ohal",
+    "booth_count":1,
+    "total_voters":890.0,
+    "strategic_score":61.9101123596,
+    "swing_score":39.2134831461,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":121
+  },
+  {
+    "locality":"Sade",
+    "booth_count":3,
+    "total_voters":2127.0,
+    "strategic_score":62.1365526879,
+    "swing_score":38.8195926907,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":122
+  },
+  {
+    "locality":"Kukud vedhe",
+    "booth_count":2,
+    "total_voters":1510.0,
+    "strategic_score":62.6594117844,
+    "swing_score":29.7056282237,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":123
+  },
+  {
+    "locality":"Kawdgaon",
+    "booth_count":1,
+    "total_voters":704.0,
+    "strategic_score":63.9204545455,
+    "swing_score":27.4147727273,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":124
+  },
+  {
+    "locality":"Tanpure Wadi (Rahuri Bu. )",
+    "booth_count":1,
+    "total_voters":807.0,
+    "strategic_score":64.0644361834,
+    "swing_score":37.5464684015,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":125
+  },
+  {
+    "locality":"Rahuri Khu",
+    "booth_count":3,
+    "total_voters":2373.0,
+    "strategic_score":64.1968679144,
+    "swing_score":36.488946172,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":126
+  },
+  {
+    "locality":"Kandal Bu.",
+    "booth_count":2,
+    "total_voters":1331.0,
+    "strategic_score":64.8998252474,
+    "swing_score":33.7294163811,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":127
+  },
+  {
+    "locality":"Renukawadi",
+    "booth_count":1,
+    "total_voters":568.0,
+    "strategic_score":65.8450704225,
+    "swing_score":43.661971831,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":128
+  },
+  {
+    "locality":"Kale Akhada (Rahuri Bk. )",
+    "booth_count":1,
+    "total_voters":1103.0,
+    "strategic_score":65.9111514053,
+    "swing_score":43.5176790571,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":129
+  },
+  {
+    "locality":"Momin Akhada",
+    "booth_count":2,
+    "total_voters":1533.0,
+    "strategic_score":68.4180208586,
+    "swing_score":28.9758670871,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":130
+  },
+  {
+    "locality":"Mohonj Bu.",
+    "booth_count":2,
+    "total_voters":1288.0,
+    "strategic_score":69.0081828752,
+    "swing_score":34.2223099742,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":131
+  },
+  {
+    "locality":"Tanpure Vasti Pimpalacha Mala (Rahuri Bu.)",
+    "booth_count":2,
+    "total_voters":1900.0,
+    "strategic_score":71.8368711163,
+    "swing_score":39.1742285945,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":132
+  },
+  {
+    "locality":"Jeur (Chaphe wadi)",
+    "booth_count":1,
+    "total_voters":398.0,
+    "strategic_score":71.8592964824,
+    "swing_score":46.9849246231,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":133
+  },
+  {
+    "locality":"Yevale vasti (Rahuri Bu.)",
+    "booth_count":1,
+    "total_voters":1098.0,
+    "strategic_score":72.131147541,
+    "swing_score":49.0892531876,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":134
+  },
+  {
+    "locality":"Babhulgaon",
+    "booth_count":2,
+    "total_voters":1307.0,
+    "strategic_score":72.221089822,
+    "swing_score":38.9046253473,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":135
+  },
+  {
+    "locality":"Desvandi",
+    "booth_count":2,
+    "total_voters":1794.0,
+    "strategic_score":72.402484299,
+    "swing_score":41.3387942789,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":136
+  },
+  {
+    "locality":"Rahuri Bu.",
+    "booth_count":22,
+    "total_voters":15312.0,
+    "strategic_score":72.6041299664,
+    "swing_score":46.7500719566,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":137
+  },
+  {
+    "locality":"Chedgaon",
+    "booth_count":2,
+    "total_voters":1667.0,
+    "strategic_score":72.6270741653,
+    "swing_score":45.0030423975,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":138
+  },
+  {
+    "locality":"Khadambe Khu.",
+    "booth_count":3,
+    "total_voters":2259.0,
+    "strategic_score":73.0805022901,
+    "swing_score":46.0055824656,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":139
+  },
+  {
+    "locality":"Varale Vasti (Rahuri Bk. )",
+    "booth_count":1,
+    "total_voters":1007.0,
+    "strategic_score":75.2730883813,
+    "swing_score":41.5094339623,
+    "priority_label":"High",
+    "action_label":"Focus Campaign Needed",
+    "rank":140
+  },
+  {
+    "locality":"Somthanne khu",
+    "booth_count":1,
+    "total_voters":411.0,
+    "strategic_score":80.2919708029,
+    "swing_score":56.204379562,
+    "priority_label":"Critical",
+    "action_label":"Immediate Visit Required",
+    "rank":141
+  },
+  {
+    "locality":"Mula nagar (Varvandi)",
+    "booth_count":1,
+    "total_voters":574.0,
+    "strategic_score":80.6620209059,
+    "swing_score":43.2055749129,
+    "priority_label":"Critical",
+    "action_label":"Immediate Visit Required",
+    "rank":142
+  },
+  {
+    "locality":"Dogarwadi",
+    "booth_count":1,
+    "total_voters":431.0,
+    "strategic_score":85.150812065,
+    "swing_score":70.5336426914,
+    "priority_label":"Critical",
+    "action_label":"Immediate Visit Required",
+    "rank":143
+  },
+  {
+    "locality":"Yeole Akhada (Rahuri Bu)",
+    "booth_count":2,
+    "total_voters":1322.0,
+    "strategic_score":89.8550724638,
+    "swing_score":56.5093560815,
+    "priority_label":"Critical",
+    "action_label":"Immediate Visit Required",
+    "rank":144
+  },
+  {
+    "locality":"Rupewadi",
+    "booth_count":1,
+    "total_voters":457.0,
+    "strategic_score":91.0284463895,
+    "swing_score":55.579868709,
+    "priority_label":"Critical",
+    "action_label":"Immediate Visit Required",
+    "rank":145
+  },
+  {
+    "locality":"Jambhulban",
+    "booth_count":1,
+    "total_voters":142.0,
+    "strategic_score":100.0,
+    "swing_score":301.4084507042,
+    "priority_label":"Critical",
+    "action_label":"Immediate Visit Required",
+    "rank":146
+  },
+  {
+    "locality":"Rahuri Bu. (New Gavthan)",
+    "booth_count":1,
+    "total_voters":689.0,
+    "strategic_score":100.0,
+    "swing_score":70.6821480406,
+    "priority_label":"Critical",
+    "action_label":"Immediate Visit Required",
+    "rank":147
+  }
+]
