@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 html {
-  font-size: 80%; /* Globally scales down rem values to simulate 80% zoom */
+  font-size: 75%; /* Perfectly replicates the 75% browser zoom requested */
   scroll-behavior: smooth;
   scroll-padding-top: 80px; /* Offset for fixed header */
 }
 
 @media (max-width: 768px) {
   html {
-    font-size: 90%; /* Keeps mobile text readable */
+    font-size: 85%; /* Slightly larger for mobile readability */
   }
 }
 

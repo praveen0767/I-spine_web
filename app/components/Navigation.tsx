@@ -36,13 +36,11 @@ export default function Navigation() {
         >
             <nav className="max-w-[1600px] mx-auto flex items-center justify-between px-6 lg:px-12 xl:px-16">
                 <Link href="/" className="flex items-center shrink-0">
-                    <div className="h-12 w-12 md:h-14 md:w-14 rounded-full overflow-hidden border border-navy-premium/10 shadow-xl bg-navy-premium flex items-center justify-center transition-transform duration-300 hover:scale-110">
-                        <img 
-                            src="/images/logo.png" 
-                            alt="I-SPINE PVT LTD Logo" 
-                            className="w-[180%] h-[180%] object-cover object-top translate-y-[10%]" 
-                        />
-                    </div>
+                    <img 
+                        src="/images/knight-logo.png" 
+                        alt="I-SPINE PVT LTD Logo" 
+                        className="h-12 w-12 md:h-14 md:w-14 rounded-full object-contain shadow-lg transition-transform duration-300 hover:scale-110" 
+                    />
                 </Link>
 
                 {/* Desktop Nav */}

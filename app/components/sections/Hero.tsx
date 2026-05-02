@@ -151,9 +151,9 @@ export default function Hero() {
                             <div className="relative p-2 md:p-3 rounded-full bg-[#0A1F44] shadow-[0_20px_50px_rgba(10,31,68,0.3)] backdrop-blur-sm z-10 border border-white/10">
                                 <div className="w-64 h-64 md:w-[22rem] md:h-[22rem] lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden flex items-center justify-center transition-transform duration-700 hover:scale-105 shadow-inner bg-[#0A1F44]">
                                     <img 
-                                        src="/images/logo.png" 
+                                        src="/images/knight-logo.png" 
                                         alt="I-SPINE PVT LTD Core Identity" 
-                                        className="w-[180%] h-[180%] object-cover object-top translate-y-[12%] filter drop-shadow-2xl" 
+                                        className="w-[98%] h-[98%] object-contain filter drop-shadow-2xl" 
                                     />
                                 </div>
                             </div>
