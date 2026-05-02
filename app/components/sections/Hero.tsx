@@ -153,7 +153,7 @@ export default function Hero() {
                                     <img 
                                         src="/images/logo.png" 
                                         alt="I-SPINE PVT LTD Core Identity" 
-                                        className="w-full h-full object-cover scale-110 filter drop-shadow-2xl" 
+                                        className="w-full h-full object-cover scale-[0.9] filter drop-shadow-2xl" 
                                     />
                                 </div>
                             </div>
