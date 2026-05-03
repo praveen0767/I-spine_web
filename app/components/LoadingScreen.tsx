@@ -36,7 +36,7 @@ export default function LoadingScreen() {
               <img 
                 src="/images/logo.png" 
                 alt="I-SPINE PVT LTD Logo" 
-                className="w-48 h-48 md:w-64 md:h-64 rounded-full object-contain p-4 shadow-[0_0_50px_rgba(255,255,255,0.1)] bg-gradient-to-b from-[#1A365D] to-[#0B1F3A] border border-white/10" 
+                className="w-56 h-56 md:w-80 md:h-80 rounded-full object-cover shadow-[0_0_50px_rgba(255,255,255,0.1)] bg-gradient-to-b from-[#1A365D] to-[#0B1F3A] border border-white/10" 
               />
             </motion.div>
             

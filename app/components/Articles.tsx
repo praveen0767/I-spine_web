@@ -4,30 +4,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Linkedin, Instagram, Youtube, X, MessageCircle } from 'lucide-react';
 import { ThemeHeading, ThemeText, ThemeLabel, ThemeCard, useTheme } from './ThemeSystem';
 
-const articles = [
-    {
-        title: "The Mechanics of Voter Sentiment",
-        desc: "A deep dive into how digital narratives influence constituency-level ground truth and why traditional polling models often miss the underlying shifts in voter loyalty.",
-        date: "Oct 2024",
-        category: "Strategy",
-        featured: true,
-        img: "/images/heroim.png"
-    },
-    {
-        title: "Engineering the Margin",
-        desc: "Mathematical approaches to identifying and mobilizing neutral voter segments.",
-        date: "Sept 2024",
-        category: "Analytics",
-        featured: false
-    },
-    {
-        title: "Institutional Perception",
-        desc: "How candidates build trust beyond the campaign cycle through policy alignment.",
-        date: "Aug 2024",
-        category: "Branding",
-        featured: false
-    }
-];
+import Link from 'next/link';
+import { articles } from '../data/articles';
 
 export default function Articles() {
     const { tokens, mode } = useTheme();
@@ -88,15 +66,15 @@ export default function Articles() {
                                             {featuredArticle.title}
                                         </h3>
                                         <ThemeText className="text-lg leading-relaxed mb-10 opacity-80">
-                                            {featuredArticle.desc}
+                                            {featuredArticle.subtitle}
                                         </ThemeText>
                                     </div>
                                     
                                     <div className={`mt-auto pt-8 border-t ${tokens.border} flex items-center justify-between`}>
-                                        <div className="flex items-center gap-3 group/btn cursor-pointer">
+                                        <Link href={`/insights/${featuredArticle.slug}`} className="flex items-center gap-3 group/btn cursor-pointer">
                                             <span className={`text-xs md:text-sm uppercase tracking-[0.2em] font-bold ${tokens.heading} group-hover/btn:text-crimson-rich transition-colors`}>Read Analysis</span>
                                             <ArrowRight className="w-5 h-5 text-crimson-rich group-hover/btn:translate-x-2 transition-transform" />
-                                        </div>
+                                        </Link>
                                     </div>
                                 </div>
                             </ThemeCard>
@@ -132,16 +110,16 @@ export default function Articles() {
                                             {article.title}
                                         </h3>
                                         <ThemeText className="text-base md:text-lg leading-relaxed opacity-80">
-                                            {article.desc}
+                                            {article.subtitle}
                                         </ThemeText>
                                     </div>
 
-                                    <div className={`mt-8 pt-6 border-t ${tokens.border} flex items-center justify-between`}>
-                                        <span className={`text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold ${tokens.heading}`}>Read Brief</span>
-                                        <div className="w-8 h-8 rounded-full border border-crimson-rich/20 flex items-center justify-center group-hover:bg-crimson-rich group-hover:border-crimson-rich transition-colors duration-300">
-                                            <ArrowRight className="w-3.5 h-3.5 text-crimson-rich group-hover:text-white transition-colors duration-300" />
+                                    <Link href={`/insights/${article.slug}`} className={`mt-8 pt-6 border-t ${tokens.border} flex items-center justify-between group/link`}>
+                                        <span className={`text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold ${tokens.heading} group-hover/link:text-crimson-rich transition-colors`}>Read Brief</span>
+                                        <div className="w-8 h-8 rounded-full border border-crimson-rich/20 flex items-center justify-center group-hover/link:bg-crimson-rich group-hover/link:border-crimson-rich transition-colors duration-300">
+                                            <ArrowRight className="w-3.5 h-3.5 text-crimson-rich group-hover/link:text-white transition-colors duration-300" />
                                         </div>
-                                    </div>
+                                    </Link>
                                 </ThemeCard>
                             </motion.div>
                         ))}

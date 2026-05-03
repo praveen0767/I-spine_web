@@ -20,7 +20,7 @@ export default function Footer() {
                                 <img 
                                     src="/images/logo.png" 
                                     alt="I-SPINE PVT LTD Logo" 
-                                    className="h-32 w-32 rounded-full object-contain p-2 bg-gradient-to-b from-[#1A365D] to-[#0B1F3A]" 
+                                    className="h-40 w-40 rounded-full object-cover bg-gradient-to-b from-[#1A365D] to-[#0B1F3A]" 
                                 />
                             </div>
                         </Link>

@@ -8,6 +8,9 @@ const cormorant = Cormorant_Garamond({ subsets: ['latin'], variable: '--font-ser
 export const metadata: Metadata = {
     title: "I-SPINE PVT LTD | Strategic Political Intelligence & Engagement",
     description: "Where strategy wins elections. Advanced political strategy, ground intelligence, and campaign operations platform.",
+    icons: {
+        icon: '/images/logo.png',
+    },
 };
 
 export const viewport = {
