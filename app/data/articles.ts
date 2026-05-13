@@ -12,6 +12,55 @@ export interface Article {
 
 export const articles: Article[] = [
     {
+        "id": "4",
+        "slug": "democracy-in-motion-urban-india",
+        "title": "Democracy in Motion: Rethinking Electoral Integrity in Urban India",
+        "subtitle": "Democracy does not weaken in a single moment of crisis. More often, it weakens quietly when institutions fail to evolve alongside society.",
+        "category": "Governance",
+        "date": "13-05-2026",
+        "img": "/images/urban_democracy.jpg",
+        "featured": true,
+        "content": `Democracy does not weaken in a single moment of crisis. More often, it weakens quietly when institutions fail to evolve alongside society. In contemporary India, one such transformation is unfolding through rapid urbanisation. The Indian city is no longer merely an economic space; it has become the central arena where questions of migration, citizenship, governance, inequality, and political representation converge. Yet, while India's urban landscape has transformed dramatically over the past two decades, the electoral framework governing these spaces continues to operate through assumptions rooted in a more static and less mobile society.
+
+This disconnect raises a fundamental democratic concern: can an electoral system designed around stable populations effectively represent a society characterised by constant urban movement?
+
+India today stands at a historic demographic transition. According to United Nations estimates, nearly 600 million Indians are expected to reside in urban areas by 2035. Metropolitan centres increasingly depend on floating populations comprising migrant labourers, students, contractual workers, gig-economy participants, and temporary residents. These groups contribute substantially to urban productivity and public life, yet many remain structurally excluded from electoral participation due to outdated registration systems, documentation barriers, and logistical constraints.
+
+The challenge, therefore, is not simply one of voter turnout. It is a question of democratic visibility.
+
+Urban constituencies across India have repeatedly recorded lower voter participation compared to rural regions. Elections in cities such as Mumbai, Bengaluru, Gurugram, and Hyderabad have demonstrated a recurring pattern of urban disengagement. However, reducing this trend to "middle-class apathy" oversimplifies a far more complex institutional issue. Political scientists and governance scholars increasingly argue that urban electoral underrepresentation is deeply linked to mobility, fragmented civic identity, and procedural inefficiencies within voter registration systems.
+
+Migration remains central to this debate. India's urbanisation model is heavily migration-driven, yet electoral administration continues to rely on fixed residential identity. Millions of citizens migrate seasonally or temporarily for education, employment, or housing affordability, but electoral rolls are not designed to accommodate frequent movement. As a result, many voters remain registered in their native constituencies while residing hundreds of kilometres away from their polling stations. Others disappear from the electoral database altogether due to duplication errors, address mismatches, or bureaucratic delays in voter transfer procedures.
+
+The consequences of this democratic gap are politically significant. Large sections of urban populations contribute economically through taxation and labour while remaining electorally underrepresented in the policymaking structures that shape their everyday lives. This creates an imbalance between governance and representation, weakening the democratic legitimacy of urban administration itself.
+
+Strengthening electoral integrity in urban India therefore requires a transition from static electoral management to adaptive electoral governance.
+
+Technology can play a transformative role in this process, provided it is implemented with institutional safeguards and constitutional accountability. India's experience with digital public infrastructure has already demonstrated administrative scalability through platforms such as Aadhaar-enabled service delivery, the Unified Payments Interface (UPI), and online governance systems. Electoral administration can similarly benefit from secure and interoperable digital mechanisms for voter registration, roll updating, and migration-sensitive verification.
+
+One of the most urgent reforms involves the modernisation of urban electoral rolls. Inaccurate voter lists continue to remain a persistent concern during elections, often leading to accidental deletions, duplicate entries, or exclusion of mobile populations. A synchronised and continuously updated electoral database integrated with municipal and administrative records could significantly reduce disenfranchisement. Such reforms may also improve polling efficiency, resource allocation, and constituency-level demographic accuracy.
+
+However, technological modernisation cannot become a justification for excessive state surveillance or data centralisation. Electoral integrity depends as much on public trust as it does on administrative efficiency. The Supreme Court's landmark judgment in Justice K.S. Puttaswamy vs Union of India (2017), which recognised privacy as a fundamental right under Article 21, establishes an essential constitutional principle for digital electoral reforms. Any integration of voter databases must therefore remain transparent, consent-based, minimally invasive, and protected through strong cybersecurity mechanisms.
+
+Equally important is the need for inclusive polling innovation. India has historically demonstrated extraordinary institutional capability in conducting elections across geographically difficult and socially diverse regions. The same spirit of innovation must now be applied to urban mobility challenges. Mobile polling units, special migrant voting facilities, temporary registration windows, and digitally assisted verification systems can help accommodate highly mobile populations without compromising electoral credibility.
+
+Several democracies have already experimented with flexible voting systems. Estonia's digital voting infrastructure and Australia's mobile polling mechanisms for remote populations provide examples of how electoral systems can adapt to changing social realities. While India's scale and diversity require uniquely tailored solutions, pilot initiatives in industrial clusters, university hubs, and migrant-dense urban settlements may offer important policy insights.
+
+Beyond institutional reform, urban electoral participation also demands a deeper civic response. The structure of urban life often weakens political belonging. Unlike rural communities where social and political networks remain closely interconnected, cities tend to produce fragmented civic engagement shaped by anonymity, occupational pressures, and transactional governance. Consequently, urban voter awareness campaigns cannot rely exclusively on traditional mobilisation methods.
+
+Targeted civic education, workplace registration drives, multilingual outreach campaigns, digital awareness initiatives, and partnerships with universities and resident associations are essential for rebuilding democratic participation in urban India. Electoral literacy must evolve from a periodic campaign exercise into a sustained component of urban citizenship.
+
+Political parties, too, must reconsider their engagement strategies. Urban voters increasingly prioritise governance-oriented issues such as public transport, pollution, housing affordability, infrastructure, employment security, and service delivery. Yet electoral campaigns often continue to privilege symbolic rhetoric over substantive urban policy discourse. Strengthening electoral integrity therefore requires not only administrative reform but also a transformation in the political imagination of urban governance.
+
+Ultimately, the question before Indian democracy is larger than voter statistics or procedural efficiency. It concerns whether democratic institutions possess the capacity to recognise and represent a rapidly changing society. Urban India today represents the frontline of twenty-first century democratic challenges, where migration, technology, identity, inequality, and governance intersect simultaneously.
+
+If electoral systems fail to adapt to these realities, democratic exclusion may gradually become embedded within the structure of urban governance itself.
+
+India's democratic success has always rested upon its ability to innovate institutionally while preserving constitutional legitimacy. The challenge ahead is not merely to conduct elections efficiently, but to ensure that every citizen shaped by India's urban transformation remains politically visible within the democratic framework.
+
+For in the future, the true strength of Indian democracy may not be measured only by the scale of its elections, but by its ability to ensure that mobility does not become a barrier to citizenship, and urbanisation does not become a pathway to silent disenfranchisement.`
+    },
+    {
         "id": "1",
         "slug": "five-states-five-mandates-national-strategy",
         "title": "Five States, Five Mandates: Why India’s 2026 Election Results Break the Idea of a “National Strategy”",
@@ -19,7 +68,7 @@ export const articles: Article[] = [
         "category": "Strategy",
         "date": "03-05-2026",
         "img": "/images/4_may.png",
-        "featured": true,
+        "featured": false,
         "content": `Most post-election analysis in India follows a predictable pattern.
 Who won? Who lost? What does it mean for the next general election?
 But if you look at the 2026 Assembly election results across Kerala, West Bengal, Tamil Nadu, Assam, and Puducherry through that lens, you miss the real story.

@@ -70,10 +70,10 @@ export default function Articles() {
                                         </ThemeText>
                                     </div>
                                     
-                                    <div className={`mt-auto pt-8 border-t ${tokens.border} flex items-center justify-between`}>
-                                        <Link href={`/insights/${featuredArticle.slug}`} className="flex items-center gap-3 group/btn cursor-pointer">
-                                            <span className={`text-xs md:text-sm uppercase tracking-[0.2em] font-bold ${tokens.heading} group-hover/btn:text-crimson-rich transition-colors`}>Read Analysis</span>
-                                            <ArrowRight className="w-5 h-5 text-crimson-rich group-hover/btn:translate-x-2 transition-transform" />
+                                    <div className={`mt-auto pt-10 border-t ${tokens.border} flex items-center justify-between`}>
+                                        <Link href={`/insights/${featuredArticle.slug}`} className="flex items-center gap-5 group/btn cursor-pointer bg-navy-premium text-white px-10 py-5 rounded-sm hover:bg-crimson-rich transition-all duration-500 shadow-xl hover:shadow-[0_10px_30px_rgba(165,28,48,0.3)]">
+                                            <span className="text-xs md:text-sm uppercase tracking-[0.3em] font-bold">Read Full Analysis</span>
+                                            <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-2 transition-transform" />
                                         </Link>
                                     </div>
                                 </div>
