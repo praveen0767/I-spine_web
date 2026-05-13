@@ -111,10 +111,10 @@ export default function ArticlePage() {
 
             {/* Header / Navigation */}
             <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FAF9F6]/90 backdrop-blur-lg border-b border-[#0A1F44]/5">
-                <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-                    <Link href="/" className="flex items-center gap-3 text-[#0A1F44]/60 hover:text-crimson-rich transition-all font-bold uppercase tracking-widest text-[10px] group">
+                <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+                    <Link href="/" className="flex items-center gap-4 bg-navy-premium text-white px-6 py-3 rounded-sm hover:bg-crimson-rich transition-all duration-300 shadow-lg text-[10px] font-bold uppercase tracking-[0.2em] group">
                         <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-                        Back to Strategy Hub
+                        Return to Dashboard
                     </Link>
                     <div className="flex items-center gap-8">
                         <div className="hidden md:flex items-center gap-2 text-[#0A1F44]/40 text-[10px] font-bold uppercase tracking-[0.2em]">
