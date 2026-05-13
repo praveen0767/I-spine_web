@@ -29,6 +29,25 @@ export default function ArticlePage() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const handleShare = async () => {
+        const shareData = {
+            title: article.title,
+            text: article.subtitle,
+            url: window.location.href,
+        };
+
+        try {
+            if (navigator.share) {
+                await navigator.share(shareData);
+            } else {
+                await navigator.clipboard.writeText(window.location.href);
+                alert("Article link copied to clipboard");
+            }
+        } catch (err) {
+            console.error("Error sharing:", err);
+        }
+    };
+
     if (!article) {
         notFound();
     }
@@ -122,7 +141,10 @@ export default function ArticlePage() {
                             {readingTime} Min Read
                         </div>
                         <div className="w-[1px] h-4 bg-[#0A1F44]/10 hidden md:block" />
-                        <button className="text-[#0A1F44]/40 hover:text-crimson-rich transition-colors">
+                        <button 
+                            onClick={handleShare}
+                            className="text-[#0A1F44]/40 hover:text-crimson-rich transition-colors"
+                        >
                             <Share2 className="w-5 h-5" />
                         </button>
                     </div>
