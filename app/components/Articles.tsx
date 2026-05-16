@@ -22,10 +22,10 @@ export default function Articles() {
                         <ThemeHeading className="mb-4">Political Insights</ThemeHeading>
                         <ThemeText>Deep dives into the mechanics of modern Indian politics, strategic frameworks, and data-driven electoral execution.</ThemeText>
                     </div>
-                    <button className="flex items-center gap-3 text-crimson-rich font-bold tracking-[0.2em] uppercase text-sm group shrink-0">
+                    <Link href="/insights" className="flex items-center gap-3 text-emerald-500 hover:text-emerald-400 font-bold tracking-[0.2em] uppercase text-sm group shrink-0 transition-colors">
                         View All Publications 
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
-                    </button>
+                    </Link>
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-stretch">
