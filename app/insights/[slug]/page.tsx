@@ -197,12 +197,12 @@ export default function ArticlePage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.2, delay: 0.2 }}
                     whileHover={{ y: -10 }}
-                    className="relative aspect-[21/9] rounded-3xl overflow-hidden shadow-[0_40px_80px_-20px_rgba(0,0,0,0.15)] ring-1 ring-slate-200/50 bg-white"
+                    className="relative rounded-3xl overflow-hidden shadow-[0_40px_80px_-20px_rgba(0,0,0,0.15)] ring-1 ring-slate-200/50 bg-white flex justify-center items-center"
                 >
                     <img 
                         src={article.img || "/images/heroim.png"} 
                         alt={article.title}
-                        className="w-full h-full object-cover filter contrast-[1.05]"
+                        className="w-full h-auto max-h-[700px] object-contain filter contrast-[1.05]"
                     />
                 </motion.div>
             </div>
