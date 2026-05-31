@@ -160,6 +160,10 @@ And ultimately, the future strength of Indian democracy may depend less on how p
         "featured": true,
         "content": `Democracy by Design: Digital Public Infrastructure and the Future of Democratic Resilience
 
+
+
+
+
 The legitimacy of modern democracies increasingly depends not only on constitutions, elections, or political institutions, but also on the invisible digital systems through which citizens interact with the state. In the twenty-first century, governance is no longer exercised solely through legislative chambers or administrative offices. It is increasingly mediated through databases, digital identities, online grievance systems, algorithmic decision-making, payment infrastructures, and interconnected platforms that shape how citizens access rights, services, and public institutions.
 
 This transformation has fundamentally altered the relationship between democracy and technology.
