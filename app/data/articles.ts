@@ -19,7 +19,7 @@ export const articles: Article[] = [
         "category": "Governance",
         "date": "21-05-2026",
         "img": "/images/youth_democracy.png",
-        "featured": true,
+        "featured": false,
         "content": `Democracies do not decline merely because institutions weaken. They decline when generations begin to feel that participation no longer produces influence. Across the world, one of the most significant political shifts of the twenty-first century has been the growing distance between young citizens and formal democratic structures. India, despite possessing one of the world’s youngest populations, is not insulated from this trend. The concern is not that Indian youth lack political awareness or social consciousness. On the contrary, young Indians today are more informed, digitally connected, and publicly expressive than any previous generation. The real challenge lies elsewhere: political systems continue to treat youth primarily as voters during elections rather than as stakeholders in governance itself.
 
 This distinction is critical.
@@ -148,6 +148,80 @@ India’s urban century will not be defined solely by expressways, metro systems
 For strong cities do not emerge merely from infrastructure investment. They emerge when local institutions possess legitimacy, autonomy, accountability, and the capacity to respond to citizens with both efficiency and democratic sensitivity.
 
 And ultimately, the future strength of Indian democracy may depend less on how power is exercised at the top, and more on how effectively it is distributed closer to the people.`
+    },
+    {
+        "id": "7",
+        "slug": "democracy-by-design-digital-public-infrastructure",
+        "title": "Democracy by Design: Digital Public Infrastructure and the Future of Democratic Resilience",
+        "subtitle": "Digital public infrastructure is redefining how citizens interact with the state—strengthening access and trust while raising risks that demand privacy, transparency, and accountability.",
+        "category": "Governance",
+        "date": "31-05-2026",
+        "img": "/images/article5_image.jpeg",
+        "featured": true,
+        "content": `Democracy by Design: Digital Public Infrastructure and the Future of Democratic Resilience
+
+The legitimacy of modern democracies increasingly depends not only on constitutions, elections, or political institutions, but also on the invisible digital systems through which citizens interact with the state. In the twenty-first century, governance is no longer exercised solely through legislative chambers or administrative offices. It is increasingly mediated through databases, digital identities, online grievance systems, algorithmic decision-making, payment infrastructures, and interconnected platforms that shape how citizens access rights, services, and public institutions.
+
+This transformation has fundamentally altered the relationship between democracy and technology.
+
+For countries like India, where governance must operate across extraordinary demographic scale and social diversity, Digital Public Infrastructure (DPI) has emerged as one of the defining institutional developments of the modern era. Platforms such as Aadhaar, Unified Payments Interface (UPI), DigiLocker, CoWIN, and digital service delivery ecosystems have demonstrated how technology can dramatically expand administrative capacity, financial inclusion, and welfare accessibility.
+
+Yet the expansion of digital governance also raises a deeper democratic question: can technological efficiency strengthen democratic resilience without weakening civil liberties, privacy, and institutional accountability?
+
+This question lies at the centre of contemporary governance debates worldwide.
+
+Digital Public Infrastructure refers to interoperable digital systems designed to provide foundational public services at scale. Unlike purely private technological ecosystems, DPI operates as a governance architecture intended to support inclusion, public access, and state-citizen interaction. The World Bank and the United Nations increasingly recognise DPI as a critical instrument for developmental governance, particularly in emerging economies seeking to improve institutional delivery mechanisms.
+
+India’s digital transformation has often been described as one of the world’s largest experiments in population-scale digital governance. Economist Nandan Nilekani, one of the principal architects associated with Aadhaar and India Stack, has argued that DPI can reduce friction between citizens and the state while improving transparency, accessibility, and inclusion. Indeed, digital welfare transfers, direct benefit systems, and digital payment infrastructures have significantly expanded state delivery capacities across sectors.
+
+The COVID-19 pandemic further demonstrated the strategic importance of digital governance systems. Platforms such as CoWIN enabled large-scale vaccination coordination, while digital payment systems supported economic continuity during periods of physical disruption. In this sense, digital infrastructure contributed not merely to administrative efficiency but also to institutional resilience during crisis conditions.
+
+However, democratic resilience cannot be measured exclusively through technological scalability.
+
+Political philosopher Langdon Winner famously argued that technologies are never politically neutral because infrastructural systems shape power relations within society. This insight becomes particularly important in discussions surrounding digital governance. Every digital architecture embeds assumptions regarding access, identity, participation, surveillance, and institutional authority.
+
+Consequently, the central challenge before democratic societies is not whether digital governance should expand, but how it should expand.
+
+One of the strongest arguments in favour of Digital Public Infrastructure lies in its potential to deepen democratic inclusion. In countries marked by administrative fragmentation, corruption vulnerabilities, and procedural opacity, digital systems can improve service transparency and reduce exclusionary gatekeeping structures. Digital grievance platforms, online public service portals, real-time welfare tracking, and interoperable governance systems can strengthen citizen-state interaction while reducing bureaucratic friction.
+
+Political scientist Francis Fukuyama has argued that state legitimacy depends significantly upon administrative capacity and institutional trust. In this regard, efficient digital infrastructure can strengthen democratic credibility by improving the everyday experience of governance. Citizens often evaluate democratic systems less through abstract constitutional ideals and more through the quality, accessibility, and fairness of public institutions they encounter directly.
+
+Yet the expansion of digital infrastructure also generates profound democratic risks if not institutionally regulated.
+
+Privacy concerns remain central to this debate. The increasing integration of identity systems, financial records, welfare databases, and behavioural data raises fears regarding excessive state surveillance, profiling, and data concentration. The Supreme Court of India’s landmark judgment in Justice K.S. Puttaswamy vs Union of India (2017), which recognised privacy as a fundamental right under Article 21, established an essential constitutional principle for digital governance: technological advancement cannot override civil liberties.
+
+Legal scholar Shoshana Zuboff’s concept of “surveillance capitalism” further highlights how data-driven systems can gradually reshape democratic societies by concentrating informational power within institutions. While Zuboff’s critique primarily targets corporate technological ecosystems, the broader warning remains relevant for state-led digital governance as well. Democracies must ensure that digital systems empower citizens rather than merely expanding institutional visibility over them.
+
+This concern becomes particularly significant in developing societies marked by social inequality and uneven digital literacy.
+
+Digital exclusion remains one of the most under-discussed dimensions of technological governance. Access to smartphones, internet connectivity, digital literacy, linguistic accessibility, and technological familiarity remains deeply unequal across regions, genders, age groups, and socio-economic categories. If governance becomes excessively digitised without parallel inclusion strategies, technology may inadvertently reinforce democratic exclusion instead of reducing it.
+
+Scholar Amartya Sen’s capability approach provides important insight here. Sen argues that development must be measured not merely through formal access but through the actual capability of individuals to exercise freedoms meaningfully. In the digital governance context, this means citizens require not only technological infrastructure but also the social and educational capacity to use it effectively.
+
+Democratic resilience therefore depends upon balancing innovation with accessibility.
+
+Equally important is the question of algorithmic accountability. As governance systems increasingly incorporate artificial intelligence, predictive analytics, and automated decision-making tools, concerns regarding transparency and institutional oversight intensify. Citizens must possess the ability to understand, question, and challenge decisions affecting their rights or access to public services.
+
+Political theorist Hannah Arendt warned that bureaucratic systems become dangerous when accountability becomes diffused and decision-making appears impersonal or inaccessible. In digital governance ecosystems, opaque algorithms risk creating precisely such conditions if institutional safeguards remain weak.
+
+This is why transparency must become foundational to Digital Public Infrastructure design.
+
+Open standards, interoperable systems, independent audits, data minimisation principles, and parliamentary oversight mechanisms are essential for preserving democratic legitimacy within digital governance frameworks. Technology cannot substitute constitutionalism. Rather, democratic institutions must shape technological systems through law, accountability, and public participation.
+
+The role of civic literacy also becomes increasingly important in digitally governed societies. Democracies cannot remain resilient if citizens engage with digital systems passively without understanding how data, platforms, and governance technologies influence rights and participation. Digital citizenship must therefore become part of broader civic education frameworks.
+
+Countries such as Estonia and Finland have invested significantly in digital literacy and public trust-building alongside technological expansion. India’s scale and diversity present far greater complexity, yet the principle remains highly relevant: technological resilience without democratic literacy risks institutional imbalance.
+
+The future of democratic governance will therefore depend not only on digital innovation, but on the ethical architecture guiding that innovation.
+
+India today possesses a historic opportunity. Its experience with population-scale Digital Public Infrastructure has already attracted global attention as a governance model for developing societies. However, the long-term success of this model will not be determined solely by technological sophistication or administrative efficiency.
+
+It will depend upon whether digital systems strengthen democratic trust, protect constitutional freedoms, and preserve institutional accountability in an increasingly data-driven world.
+
+For ultimately, resilient democracies are not defined merely by their capacity to digitise governance. They are defined by their ability to ensure that technology remains accountable to citizens rather than citizens becoming subordinate to technological systems.
+
+In the decades ahead, the true test of democratic resilience may not be whether states become more digital, but whether they remain deeply democratic while doing so.
+` 
     },
     {
         "id": "4",
