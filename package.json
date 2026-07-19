@@ -37,6 +37,7 @@
         "postcss": "8.x",
         "react-simple-maps": "^3.0.0",
         "d3-geo": "^3.1.0",
+        "react": "18.x",
         "react-dom": "18.x",
         "react-hook-form": "7.x",
         "recharts": "^3.8.1",
