@@ -1,1 +1,1 @@
-A Political Intelligence Committe
+A Political Intelligence Committee
