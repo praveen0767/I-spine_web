@@ -1,0 +1,11 @@
+node_modules
+.next
+.env.local
+.env
+.DS_Store
+Photos/
+Articles/
+*.docx
+Gemini_Generated_Image_*.png
+tsconfig.tsbuildinfo
+test-output.css
