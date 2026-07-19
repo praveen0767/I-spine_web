@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 75%; /* Perfectly replicates the 75% browser zoom requested */
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Offset for fixed header */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 85%; /* Slightly larger for mobile readability */
+  }
+}
+
+@layer base {
+
+  :root {
+    --navy-premium: #0A1F44;
+    /* Deep Authority Navy */
+    --navy-deep: #050E1F;
+    /* Darker shadow navy */
+    --crimson-rich: #A51C30;
+    /* Strategic Crimson Red */
+    --gold-refined: #D4AF37;
+    /* Precision Gold */
+    --blush-white: #FAF9F6;
+    /* Off-white / Ivory background */
+    --charcoal: #2D2D2D;
+    /* Professional neutral */
+    --slate-soft: #F1F3F5;
+    /* Supporting gray */
+
+    --text-primary: var(--navy-premium);
+    --text-secondary: var(--charcoal);
+    --bg-main: var(--blush-white);
+
+    /* Dashboard & Shadcn UI Tokens */
+    --background: var(--blush-white);
+    --foreground: var(--charcoal);
+    --card: #FFFFFF;
+    --card-foreground: var(--navy-premium);
+    --popover: #FFFFFF;
+    --popover-foreground: var(--navy-premium);
+    --primary: var(--navy-premium);
+    --primary-foreground: #FFFFFF;
+    --secondary: var(--slate-soft);
+    --secondary-foreground: var(--charcoal);
+    --muted: var(--slate-soft);
+    --muted-foreground: #64748B;
+    --accent: var(--gold-refined);
+    --accent-foreground: #FFFFFF;
+    --destructive: var(--crimson-rich);
+    --destructive-foreground: #FFFFFF;
+    --border: #E2E8F0;
+    --input: #E2E8F0;
+    --ring: var(--navy-premium);
+    --radius: 0.5rem;
+
+    /* Semantic Dashboard Names */
+    --color-navy-premium: var(--navy-premium);
+    --color-navy-deep: var(--navy-deep);
+    --color-crimson-rich: var(--crimson-rich);
+    --color-gold-refined: var(--gold-refined);
+    --color-surface-soft: var(--slate-soft);
+    --color-neutral-charcoal: var(--charcoal);
+  }
+
+  body {
+    @apply bg-blush-white text-navy-premium font-sans antialiased overflow-x-hidden transition-colors duration-500;
+    background-color: var(--blush-white);
+    background-image:
+      radial-gradient(at 0% 0%, rgba(165, 28, 48, 0.015) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(10, 31, 68, 0.01) 0px, transparent 50%),
+      radial-gradient(at 50% 100%, rgba(212, 175, 55, 0.015) 0px, transparent 50%);
+  }
+
+  /* Subtle noise texture for premium feel */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.015;
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif tracking-tight leading-[1.1] text-navy-premium;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 8vw, 6.5rem);
+    @apply font-bold;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    @apply font-bold mb-6;
+  }
+
+  h3 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    @apply font-bold mb-4;
+  }
+
+  p {
+    font-size: clamp(1rem, 1.2vw, 1.15rem);
+    @apply leading-relaxed text-charcoal/80 font-sans;
+  }
+}
+
+@layer components {
+  .premium-card {
+    @apply bg-white/60 backdrop-blur-sm border border-navy-premium/5 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.08)] transition-all duration-500 rounded-sm;
+  }
+
+  .nav-link {
+    @apply text-sm md:text-base font-sans font-bold uppercase tracking-[0.2em] text-navy-premium hover:text-crimson-rich transition-all duration-300 relative whitespace-nowrap;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute -bottom-1 left-0 w-0 h-[1px] bg-crimson-rich transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .btn-primary {
+    @apply bg-navy-premium text-blush-white px-12 py-5 text-sm md:text-base uppercase tracking-[0.2em] font-bold hover:bg-crimson-rich transition-all duration-500 rounded-sm shadow-md;
+  }
+
+  .btn-outline {
+    @apply border border-navy-premium/20 text-navy-premium px-12 py-5 text-sm md:text-base uppercase tracking-[0.2em] font-bold hover:bg-navy-premium hover:text-white transition-all duration-500 rounded-sm;
+  }
+
+
+  .gold-divider {
+    @apply w-12 h-[1px] bg-gold-refined/40 my-6;
+  }
+
+  .text-gold {
+    color: var(--gold-refined);
+  }
+}
