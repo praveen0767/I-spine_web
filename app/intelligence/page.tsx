@@ -142,42 +142,41 @@ export default function ExecutiveBriefingPlatform() {
         <StickyNav />
         
         <main className="max-w-[1600px] mx-auto px-6 lg:px-12 pt-12 space-y-24">
-            
-            <section id="executive-briefing" className="scroll-mt-40">
-              <ExecutiveSummary />
-            </section>
 
-            <section id="strategic-intelligence" className="scroll-mt-40 space-y-24">
-              <GeospatialIntelligence />
-              <ExecutiveKPIDashboard />
-            </section>
+  <section id="executive-briefing" className="scroll-mt-40">
+    <ExecutiveSummary />
+  </section>
 
-            <section id="election-intelligence" className="scroll-mt-40">
-              <StrategicAnalytics />
-            </section>
+  <section id="strategic-intelligence" className="scroll-mt-40">
+    {/* <GeospatialIntelligence /> */}
+    {/* <ExecutiveKPIDashboard /> */}
+  </section>
 
-            <section id="decision-intelligence" className="scroll-mt-40 space-y-24">
-              <StrategicRecommendations />
-              <WorkflowOrchestration />
-            </section>
+  <section id="election-intelligence" className="scroll-mt-40">
+    <StrategicAnalytics />
+  </section>
 
-            <section id="research-intelligence" className="scroll-mt-40">
-              <DataFusionEngine />
-            </section>
+  <section id="decision-intelligence" className="scroll-mt-40">
+    {/* <StrategicRecommendations /> */}
+    {/* <WorkflowOrchestration /> */}
+  </section>
 
-            <section id="campaign-intelligence" className="scroll-mt-40">
-              <LiveIntelligenceFeed />
-            </section>
+  <section id="research-intelligence" className="scroll-mt-40">
+    {/* <DataFusionEngine /> */}
+  </section>
 
-            <section id="insights-center" className="scroll-mt-40">
-              {/* Future insights components can be added here. Strategic Analytics covers most right now. */}
-            </section>
+  <section id="campaign-intelligence" className="scroll-mt-40">
+    {/* <LiveIntelligenceFeed /> */}
+  </section>
 
-            <section id="political-intelligence" className="scroll-mt-40">
-              <TechnologyShowcase />
-            </section>
+  <section id="insights-center" className="scroll-mt-40">
+  </section>
 
-        </main>
+  <section id="political-intelligence" className="scroll-mt-40">
+    {/* <TechnologyShowcase /> */}
+  </section>
+
+</main>
 
         <BriefingFooter />
       </div>
