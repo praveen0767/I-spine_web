@@ -6,13 +6,6 @@ import { ThemeHeading, ThemeText, ThemeLabel, ThemeCard, useTheme } from './Them
 
 const team = [
     { 
-        name: "Rahul Kumar", 
-        role: "FOUNDING TEAM", 
-        bio: "Strategic political consultant focused on campaign design, execution frameworks, and electoral positioning.", 
-        img: "/images/team/Rahul.jpeg",
-        instagram: "https://www.instagram.com/rahulgautam_906?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-    },
-    { 
         name: "Rohit Rathee", 
         role: "FOUNDING TEAM", 
         bio: "Political professional with a strong foundation in public policy, governance, and electoral dynamics. Brings real legislative insight into political consulting with strong exposure to campaign strategy and grassroots political communication.", 
@@ -55,8 +48,8 @@ export default function TeamSection() {
                     </ThemeText>
                 </div>
 
-                {/* Premium 4-Column Grid */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+                {/* Premium 3-Column Grid — centered with max-width for 3 cards */}
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12 max-w-[1100px] mx-auto">
                     {team.map((m, i) => (
                         <motion.div
                             key={m.name}
@@ -68,8 +61,8 @@ export default function TeamSection() {
                         >
                             <ThemeCard className="h-full flex flex-col p-0 overflow-hidden group hover:border-crimson-rich/30">
                                 
-                                {/* Portrait Image Area */}
-                                <div className="relative aspect-[4/5] overflow-hidden bg-[#0A1F44]">
+                                {/* Portrait Image Area — taller for 3-col layout */}
+                                <div className="relative aspect-[3/4] overflow-hidden bg-[#0A1F44]">
                                     {m.img ? (
                                         <img 
                                             src={m.img} 
@@ -85,10 +78,10 @@ export default function TeamSection() {
                                         </div>
                                     )}
                                     
-                                    {/* Overlay Gradient for Text readability if needed, or just a brand accent */}
+                                    {/* Overlay Gradient */}
                                     <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[#0A1F44] via-[#0A1F44]/50 to-transparent opacity-80" />
                                     
-                                    {/* Social Links Positioned over Image Bottom */}
+                                    {/* Social Links */}
                                     <div className="absolute bottom-6 right-6 flex gap-3 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
                                         {m.linkedin && (
                                             <a 
