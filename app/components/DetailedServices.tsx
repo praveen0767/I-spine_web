@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { Target, Users, BarChart3, Fingerprint, Share2, MessageCircle, BookOpen } from 'lucide-react';
+import { Target, Users, BarChart3, Fingerprint, Share2, BookOpen } from 'lucide-react';
 import { ThemeHeading, ThemeText, ThemeLabel, ThemeCard, useTheme } from './ThemeSystem';
 
 const SERVICES = [
@@ -13,7 +13,8 @@ const SERVICES = [
       "Election Roadmap & Timeline Planning",
       "Opponent Analysis & Counter-Strategy",
       "Alliance & Coalition Strategy",
-      "Issue Mapping & Narrative Positioning"
+      "Issue Mapping & Narrative Positioning",
+      "Rapid Crisis Management"
     ],
     icon: Target,
     img: "/images/services/service-1.png"
@@ -27,7 +28,10 @@ const SERVICES = [
       "Constituency Profiling & SWOT",
       "War Room Setup & Operations",
       "Booth Management Systems",
-      "Voter Outreach Programs"
+      "Voter Outreach Programs",
+      "BLA Training",
+      "Cadre Training",
+      "Cadre Formation"
     ],
     icon: Users,
     img: "/images/services/service-2.png"
@@ -55,7 +59,8 @@ const SERVICES = [
       "Leader Profiling & Makeover",
       "Personal Brand Strategy",
       "Communication Coaching",
-      "Constituency Connect Plans"
+      "Constituency Connect Plans",
+      "Speech Writing"
     ],
     icon: Fingerprint,
     img: "/images/services/service-4.png"
@@ -76,20 +81,6 @@ const SERVICES = [
   },
   {
     id: "06",
-    layer: "Media",
-    title: "PR & Media Relations",
-    summary: "The right message, delivered at the right time, through the right channels.",
-    details: [
-      "Press Releases & Media Kits",
-      "Journalist & Media Networks",
-      "Rapid Crisis Management",
-      "Impactful Speech Writing"
-    ],
-    icon: MessageCircle,
-    img: "/images/services/service-6.png"
-  },
-  {
-    id: "07",
     layer: "Governance",
     title: "Policy Research & Governance",
     summary: "Our role doesn't end with elections. We help translate victory into effective governance.",
@@ -124,8 +115,8 @@ export default function DetailedServices() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-stretch">
         {SERVICES.map((s, index) => {
           const Icon = s.icon;
-          // The 7th item spans full width
-          const isFullWidth = index === SERVICES.length - 1;
+          // Make the last item full width only if there's an odd number of items to prevent empty grid spaces
+          const isFullWidth = (SERVICES.length % 2 !== 0) && (index === SERVICES.length - 1);
 
           return (
             <ThemeCard

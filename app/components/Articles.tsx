@@ -11,7 +11,7 @@ export default function Articles() {
     const { tokens, mode } = useTheme();
 
     const featuredArticle = articles.find(a => a.featured);
-    const secondaryArticles = articles.filter(a => !a.featured);
+    const secondaryArticles = articles.filter(a => !a.featured).slice(0, 3);
 
     return (
         <div className="w-full">
@@ -28,7 +28,7 @@ export default function Articles() {
                     </Link>
                 </div>
 
-                <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-stretch">
+                <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-stretch lg:max-h-[85vh] lg:min-h-[600px]">
                     
                     {/* Left Side: Featured Article */}
                     {featuredArticle && (
@@ -37,9 +37,9 @@ export default function Articles() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
-                            className="w-full lg:w-[62%] flex"
+                            className="w-full lg:w-[62%] flex lg:h-full"
                         >
-                            <ThemeCard className="group relative flex flex-col md:flex-row overflow-hidden p-0 border-transparent hover:border-crimson-rich/30 transition-all duration-700 shadow-2xl hover:shadow-[0_25px_50px_rgba(10,31,68,0.2)] w-full hover:-translate-y-2 items-stretch">
+                            <ThemeCard className="group relative flex flex-col md:flex-row overflow-hidden p-0 border-transparent hover:border-crimson-rich/30 transition-all duration-700 shadow-2xl hover:shadow-[0_25px_50px_rgba(10,31,68,0.2)] w-full h-full hover:-translate-y-2 items-stretch">
                                 
                                 {/* Image Section */}
                                 <div className="relative md:w-[45%] xl:w-[50%] min-h-[350px] overflow-hidden bg-[#0A1F44]">
@@ -62,10 +62,10 @@ export default function Articles() {
                                                 {featuredArticle.date}
                                             </span>
                                         </div>
-                                        <h3 className={`text-4xl md:text-5xl lg:text-[2.75rem] font-serif ${tokens.heading} mb-6 group-hover:text-crimson-rich transition-colors duration-500 font-bold leading-[1.15]`}>
+                                        <h3 className={`text-4xl md:text-5xl lg:text-[2.75rem] font-serif ${tokens.heading} mb-6 group-hover:text-crimson-rich transition-colors duration-500 font-bold leading-[1.15] line-clamp-3`}>
                                             {featuredArticle.title}
                                         </h3>
-                                        <ThemeText className="text-lg leading-relaxed mb-10 opacity-80">
+                                        <ThemeText className="text-lg leading-relaxed mb-10 opacity-80 line-clamp-3">
                                             {featuredArticle.subtitle}
                                         </ThemeText>
                                     </div>
@@ -98,7 +98,7 @@ export default function Articles() {
                                     <div className="absolute top-0 left-0 w-0 h-[3px] bg-gradient-to-r from-crimson-rich to-gold-refined group-hover:w-full transition-all duration-700 ease-out" />
 
                                     <div>
-                                        <div className="flex justify-between items-center mb-6">
+                                        <div className="flex justify-between items-center mb-4">
                                             <span className={`text-[10px] uppercase tracking-widest text-crimson-rich font-bold bg-[#0A1F44]/5 dark:bg-white/5 px-3 py-1 rounded-sm`}>
                                                 {article.category}
                                             </span>
@@ -106,15 +106,15 @@ export default function Articles() {
                                                 {article.date}
                                             </span>
                                         </div>
-                                        <h3 className={`text-2xl md:text-3xl font-serif ${tokens.heading} mb-5 group-hover:text-crimson-rich transition-colors duration-300 font-bold leading-tight`}>
+                                        <h3 className={`text-xl md:text-2xl font-serif ${tokens.heading} mb-3 group-hover:text-crimson-rich transition-colors duration-300 font-bold leading-tight line-clamp-2`}>
                                             {article.title}
                                         </h3>
-                                        <ThemeText className="text-base md:text-lg leading-relaxed opacity-80">
+                                        <ThemeText className="text-sm md:text-base leading-relaxed opacity-80 line-clamp-2">
                                             {article.subtitle}
                                         </ThemeText>
                                     </div>
 
-                                    <Link href={`/insights/${article.slug}`} className={`mt-8 pt-6 border-t ${tokens.border} flex items-center justify-between group/link`}>
+                                    <Link href={`/insights/${article.slug}`} className={`mt-auto pt-4 border-t ${tokens.border} flex items-center justify-between group/link`}>
                                         <span className={`text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold ${tokens.heading} group-hover/link:text-crimson-rich transition-colors`}>Read Brief</span>
                                         <div className="w-8 h-8 rounded-full border border-crimson-rich/20 flex items-center justify-center group-hover/link:bg-crimson-rich group-hover/link:border-crimson-rich transition-colors duration-300">
                                             <ArrowRight className="w-3.5 h-3.5 text-crimson-rich group-hover/link:text-white transition-colors duration-300" />
