@@ -92,7 +92,7 @@ Dashboards can monitor performance.
 
 But only human judgement can transform information into political wisdom.
 
-And in a democracy, wisdom will always remain the most valuable form of intelligence.\`,
+And in a democracy, wisdom will always remain the most valuable form of intelligence.`,
     },
     {
         "id": "11",
